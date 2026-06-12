@@ -22,3 +22,9 @@
     font-weight: 600;
     transition: color 0.2s;
 }
+
+.cabecalho-menu-item{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
