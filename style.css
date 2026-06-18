@@ -28,3 +28,45 @@
     color: aliceblue;
     border: none;
 }
+
+
+
+
+
+
+
+
+.problema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    min-height: 80vh;
+    gap: 30px;
+}
+
+.problema-textos{
+    flex:1;
+    font-size: 3rem;
+    color: green;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.problema-paragrafo{
+    font-size: 1.2;
+    margin-bottom: 30px;
+    color: gray
+}
+.problema-imagem{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.problema-foto{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px gray;
+}
